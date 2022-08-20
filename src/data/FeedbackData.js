@@ -2,17 +2,17 @@ const FeedbackData = [
   {
     id: 1,
     rating: 10,
-    text: "Lorem ipsum dolor sit amet consectetur asdfd, this is an example",
+    text: "this is an example of a feedback",
   },
   {
     id: 2,
     rating: 9,
-    text: "Lorem ipsum dolor sit amet consectetur asdfd, this is an example\n but a bigger example so you can see how this works",
+    text: "you can update any feedback using the edit icon",
   },
   {
     id: 3,
     rating: 8,
-    text: "Lorem ipsum dolor sit amet consectetur asdfd, this is an example",
+    text: "you can delete any feed back as well",
   },
 ];
 

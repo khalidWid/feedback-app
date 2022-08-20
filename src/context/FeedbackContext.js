@@ -1,26 +1,11 @@
 import { createContext, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
+import FeedbackData from "../data/FeedbackData";
 
 const FeedbackContext = createContext();
 
 export const FeedbackProvider = ({ children }) => {
-  const [feedback, setFeedback] = useState([
-    {
-      id: 1,
-      text: "This is feedback item 1",
-      rating: 10,
-    },
-    {
-      id: 2,
-      text: "This is feedback tem 2",
-      rating: 6,
-    },
-    {
-      id: 3,
-      text: "This is feedback item 3",
-      rating: 8,
-    },
-  ]);
+  const [feedback, setFeedback] = useState(FeedbackData);
 
   const [feedbackEdit, setFeedbackEdit] = useState({
     item: {},
